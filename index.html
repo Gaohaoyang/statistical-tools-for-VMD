@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>无敌统计器1.2.0</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/fileinput.min.css">
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/fileinput.min.js"></script>
+
+	</head>
+	<body>
+		<div class="container">
+			<div id="header" class="row">
+				<h2>无敌统计器</h2>
+				<hr>
+			</div>
+			<div id="main" class="row">
+				<div class="col-sm-6">
+					<h4>请输入相关信息：</h4>
+					<form class="form-horizontal">
+						<!-- <div class="form-group">
+							<label for="fileName" class="col-sm-3 control-label">文件名:</label>
+							<div class="col-sm-9">
+								<input id="fileName" type="text" class="form-control" required="required" placeholder="确保文件已放置files目录下，包含后缀名，例如：a.txt">
+							</div>
+						</div> -->
+						<div class="form-group">
+							<label for="file" class="col-sm-3 control-label">文件选择:</label>
+							<div class="col-sm-9">
+								<input id="file" type="file" class="file" data-show-preview="false" placeholder="只能打开files目录下的txt文件">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="number" class="col-sm-3 control-label">数字:</label>
+							<div class="col-sm-9">
+								<input id="number" type="number" class="form-control" max="9999" min="1" required="required" placeholder="请输入数字">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="letter" class="col-sm-3 control-label">字母:</label>
+							<div class="col-sm-9">
+								<input id="letter" type="text" class="form-control" required="required" placeholder="请输入字母，注意大小写">
+							</div>
+						</div>
+					</form>
+					<div class="col-sm-offset-3 col-sm-9">
+						<button id="start" class="btn btn-primary">开始统计</button>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<h4>结果：</h4>
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<p>无</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="footer" class="row">
+				<hr>
+				<div class="col-sm-8">
+					<p>谢谢使用。软件作者：gaohaoyang126@126.com</p>
+				</div>
+				<div class="col-sm-4">
+					<button id="help" class="btn btn-default" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">▼ 显示帮助</button>
+				</div>
+			</div>
+			<div id="helper" class="row">
+				<div class="collapse" id="collapseExample">
+					<div class="well">
+						<ol>
+							<li>
+								<p>本应用只支持FireFox、IE9+。<span class="red">不支持Chrome、Opera。</span>Safari没测试过</p>
+							</li>
+							<li>
+								<p>若使用IE浏览器提示已限制此网页运行脚本或ActiveX控件，请点击允许阻止的内容，如下图：</p>
+								<p><img src="pics/allow.png" alt="允许阻止"></p>
+							</li>
+							<li>
+								<p>一定要先将待统计的数据文件（例如：a.txt），放入files文件夹下，如下图：</p>
+								<p><img src="pics/contruct.png" alt="文件结构"></p>
+							</li>
+							<li>
+								<p>在相关信息中，文件选择（<span class="red">只能选择files目录下的txt文件，</span>这是因为浏览器的安全性导致的），输入数字（如：465），输入字母（注意大小写，如：H）</p>
+							</li>
+							<li><p>点击开始统计，即可在右侧看到结果，如果结果有误或软件bug请速速与我联系！</p></li>
+							<li><p>祝科研顺利！</p></li>
+						</ol>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

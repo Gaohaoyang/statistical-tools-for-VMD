@@ -1,0 +1,14 @@
+*{
+	font-family: Microsoft YaHei, SimHei, sans-serif;
+}
+#footer .col-sm-4{
+	text-align: right;
+}
+#helper{
+	margin-top: 10px;
+}
+#helper .red{
+	color: #c7254e;
+	background-color: #f9f2f4;
+	font-weight: bold;
+}
