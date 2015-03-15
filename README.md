@@ -51,8 +51,8 @@
 
 当前版本1.2.0  
 
-可以直接在github上下载所有源文件使用。通过clone等方式  
-或直接点击 [DownLoad ZIP](https://github.com/Gaohaoyang/statistical-tools-for-VMD/archive/master.zip) 下载使用  
+* 可以直接在github上下载所有源文件使用，通过`git clone git@github.com:Gaohaoyang/statistical-tools-for-VMD.git`方式  
+* 或直接[点击这里](https://github.com/Gaohaoyang/statistical-tools-for-VMD/archive/v1.2.0.zip)进行下载  
 
 ### 使用  
 
